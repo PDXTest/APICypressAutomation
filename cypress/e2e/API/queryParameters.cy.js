@@ -8,7 +8,7 @@ it('passing query parameters', ()=>{
 
     
 cy.request({
-    methid: 'GET',
+    method: 'GET',
     url: 'https://reqres.in/api/users',
     qs: queryparam
     })
